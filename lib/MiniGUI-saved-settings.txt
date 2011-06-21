@@ -1,0 +1,27 @@
+#Saved ELKI settings. First line is title, remaining lines are parameters.
+run-db-scan-elki-test
+-algorithm
+clustering.DBSCAN
+-dbscan.epsilon
+20.0
+-dbscan.minpts
+4
+-dbc.in
+/home/desislava/workspace/DBSCAN/rsc/input.txt
+-resulthandler
+de.lmu.ifi.dbs.elki.visualization.gui.ResultVisualizer
+
+run-db-complex-data
+-algorithm
+clustering.DBSCAN
+-dbscan.epsilon
+10.0
+-dbscan.minpts
+4
+-dbc.in
+/home/desislava/workspace/DBSCAN/data/Complex&Diamond_Original/Complex9.txt
+-resulthandler
+de.lmu.ifi.dbs.elki.visualization.gui.ResultVisualizer
+-out
+/home/desislava/workspace/DBSCAN/data/Complex&Diamond_Original/Complex9.txt
+

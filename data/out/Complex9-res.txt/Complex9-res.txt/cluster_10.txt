@@ -1,0 +1,51 @@
+###############################################################
+# Settings and meta information:
+# db size = 3031
+# db dimensionality = 3
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.DBSCAN
+# -verbose false
+# -time false
+# -algorithm.distancefunction EuclideanDistanceFunction
+# -dbscan.epsilon 10.0
+# -dbscan.minpts 4
+# 
+# de.lmu.ifi.dbs.elki.database.connection.FileBasedDatabaseConnection
+# -dbc.database SequentialDatabase
+# -dbc.classLabelIndex [unset]
+# -dbc.classLabelClass SimpleClassLabel
+# -dbc.externalIDIndex [unset]
+# -dbc.parser DoubleVectorLabelParser
+# 
+# de.lmu.ifi.dbs.elki.parser.DoubleVectorLabelParser
+# -parser.labelIndices [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.connection.FileBasedDatabaseConnection
+# -dbc.seed [unset]
+# -dbc.in /home/desislava/workspace/DBSCAN/data/Complex&Diamond_Original/Complex9.txt
+# 
+# de.lmu.ifi.dbs.elki.result.ResultWriter
+# -out /home/desislava/workspace/DBSCAN/data/out/Complex9-res.txt/Complex9-res.txt
+# -out.gzip false
+# -out.silentoverwrite false
+###############################################################
+# Group class: de.lmu.ifi.dbs.elki.data.cluster.Cluster
+# Serialization class: de.lmu.ifi.dbs.elki.data.cluster.Cluster
+# Name: Cluster
+# Noise flag: false
+# Size: 12
+# Model class: de.lmu.ifi.dbs.elki.data.model.ClusterModel
+###############################################################
+375.438 426.635 6.0 ID=2572 LABEL=ID=2718LABEL=ID=1891
+378.984 422.004 6.0 ID=953 LABEL=ID=2719LABEL=ID=1862
+371.817 422.008 6.0 ID=2569 LABEL=ID=2720LABEL=ID=1863
+377.046 419.455 6.0 ID=2568 LABEL=ID=2721LABEL=ID=1847
+366.829 424.024 6.0 ID=2567 LABEL=ID=2722LABEL=ID=1874
+382.581 419.315 6.0 ID=951 LABEL=ID=2723LABEL=ID=1844
+383.414 415.2 6.0 ID=949 LABEL=ID=2724LABEL=ID=1808
+381.669 414.33 6.0 ID=950 LABEL=ID=2725LABEL=ID=1801
+387.325 418.898 6.0 ID=954 LABEL=ID=2726LABEL=ID=1842
+380.025 412.558 6.0 ID=952 LABEL=ID=2727LABEL=ID=1787
+363.769 424.607 6.0 ID=2566 LABEL=ID=2728LABEL=ID=1877
+367.371 413.262 6.0 ID=2565 LABEL=ID=2729LABEL=ID=1792
+###############################################################

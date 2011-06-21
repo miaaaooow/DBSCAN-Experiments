@@ -1,0 +1,43 @@
+###############################################################
+# Settings and meta information:
+# db size = 3031
+# db dimensionality = 3
+# 
+# de.lmu.ifi.dbs.elki.algorithm.clustering.DBSCAN
+# -verbose false
+# -time false
+# -algorithm.distancefunction EuclideanDistanceFunction
+# -dbscan.epsilon 10.0
+# -dbscan.minpts 4
+# 
+# de.lmu.ifi.dbs.elki.database.connection.FileBasedDatabaseConnection
+# -dbc.database SequentialDatabase
+# -dbc.classLabelIndex [unset]
+# -dbc.classLabelClass SimpleClassLabel
+# -dbc.externalIDIndex [unset]
+# -dbc.parser DoubleVectorLabelParser
+# 
+# de.lmu.ifi.dbs.elki.parser.DoubleVectorLabelParser
+# -parser.labelIndices [unset]
+# 
+# de.lmu.ifi.dbs.elki.database.connection.FileBasedDatabaseConnection
+# -dbc.seed [unset]
+# -dbc.in /home/desislava/workspace/DBSCAN/data/Complex&Diamond_Original/Complex9.txt
+# 
+# de.lmu.ifi.dbs.elki.result.ResultWriter
+# -out /home/desislava/workspace/DBSCAN/data/out/Complex9-res.txt/Complex9-res.txt
+# -out.gzip false
+# -out.silentoverwrite false
+###############################################################
+# Group class: de.lmu.ifi.dbs.elki.data.cluster.Cluster
+# Serialization class: de.lmu.ifi.dbs.elki.data.cluster.Cluster
+# Name: Cluster
+# Noise flag: false
+# Size: 4
+# Model class: de.lmu.ifi.dbs.elki.data.model.ClusterModel
+###############################################################
+506.497 171.391 3.0 ID=1099 LABEL=ID=1LABEL=ID=505
+504.016 164.453 3.0 ID=1100 LABEL=ID=2LABEL=ID=488
+505.503 162.45 3.0 ID=1101 LABEL=ID=3LABEL=ID=481
+499.357 177.083 3.0 ID=1102 LABEL=ID=4LABEL=ID=511
+###############################################################
